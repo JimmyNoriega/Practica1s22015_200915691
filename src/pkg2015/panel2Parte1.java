@@ -184,6 +184,8 @@ this.pasar = this.contadorHeoreP + "/" + this.contadorCastilloP +"/" + this.cont
         this.jTextArea2.setEnabled(false);
         this.jButton2.setEnabled(false);
         this.jButton3.setEnabled(false);
+        this.jButton4.setEnabled(false);
+        this.jLabel8.setEnabled(false);
         this.getContentPane().setBackground(Color.CYAN);
        for(int i=0;i<=this.valorMayor.length-1; i++){
                valorMenor = valorMayor[i].split("_");  
@@ -466,6 +468,8 @@ this.pasar = this.contadorHeoreP + "/" + this.contadorCastilloP +"/" + this.cont
  
         this.jButton2.setEnabled(true);
         this.jButton3.setEnabled(true);
+        this.jButton4.setEnabled(true);
+        this.jLabel8.setEnabled(true);
         this.CargarPanel();
         this.resumen();
          this.setearImagenPanel();
